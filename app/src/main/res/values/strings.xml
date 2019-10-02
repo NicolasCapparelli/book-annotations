@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Book Annotations</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- PLACEHOLDER STRINGS -->
+    <string name="placeholder_name">Sam Smith</string>
+    <string name="placeholder_email">samsmith29@hotmail.com</string>
+    <string name="placeholder_book_title">CODE: The Hidden Language of Computer Hardware and Software</string>
+    <string name="placeholder_book_author">Charles Petzold</string>
+    <string name="placeholder_book_annotation_count_0">Pages Annotated: 293 </string>
+    <string name="placeholder_book_annotation_count_1">Ann. Count: 293 </string>
+    <string name="placeholder_isbn">ISBN: 9788320426861</string>
+
+    <!-- DRAWER MENU -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="drawer_option_0">Home</string>
+    <string name="drawer_option_1">My Books</string>
+    <string name="drawer_option_2">Settings</string>
+
+
+    <string name="drawer_feedback_title">Feedback</string>
+    <string name="drawer_feedback_0">Suggest Feature</string>
+    <string name="drawer_feedback_1">Report Bug</string>
+    <string name="drawer_feedback_2">Rate App</string>
+
+        <!-- Image Descriptions -->
+        <string name="drawer_header_image_description">A header image</string>
+
+
+    <!-- FRAGMENT_HOME STRINGS -->
+    <string name="fragment_home_title">Home</string>
+
+
+    <!-- FRAGMENT_MY_BOOKS STRINGS -->
+    <string name="toolbar_add">Add New Book</string>
+    <string name="toolbar_search">Search My Books</string>
+
+    <string name="fragment_my_books_title">My Books</string>
+    <string name="fragment_my_books_image_desc">Image of Book Cover</string>
+    <string name="fragment_my_books_create_own_book">Can\'t find your book? Create one manually. →</string>
+
+    <!-- FRAGMENT ANNOTATE STRINGS -->
+    <string name="fragment_annotate_hint">Your Annotation Here&#8230;</string>
+
+    <!-- NCEditText STRINGS -->
+    <string name="ncte_default_hint">Your Text Here&#8230;</string>
+    <string name="ncte_rb_font_options_desc">Font Options</string>
+    <string name="ncte_rb_bold_desc">Bold</string>
+    <string name="ncte_rb_italic_desc">Italics</string>
+    <string name="ncte_rb_underline_desc">Underline</string>
+    <string name="ncte_rb_bullet_desc">Bullet List</string>
+    <string name="ncte_rb_number_desc">Number List</string>
+    <string name="ncte_rb_monospace_desc">Monospace</string>
+
+
+
+</resources>

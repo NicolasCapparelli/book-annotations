@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_viewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <!-- Main Ribbon -->
+    <HorizontalScrollView
+        android:id="@+id/sv_ribbonWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/llt_ribbon"
+            style="?android:buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@android:color/black"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_formatFontOptions"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_font_options_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_font_download_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatBold"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_bold_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_format_bold_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatItalics"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_italic_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_format_italic_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatUnderline"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_underline_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_format_underlined_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatBullet"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_bullet_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_format_list_bulleted_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatNumberList"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_number_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_format_list_numbered_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_formatMonospace"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/ncte_rb_monospace_desc"
+                android:scaleType="center"
+                android:src="@drawable/ic_code_white_24dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!-- Font Ribbon -->
+    <LinearLayout
+        android:id="@+id/llt_fontRibbon"
+        style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_returnToMainRibbon"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@string/ncte_rb_font_options_desc"
+            android:scaleType="center"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <Spinner
+            android:id="@+id/sr_fontPicker"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/white"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_formatFontTitle"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@string/ncte_rb_font_options_desc"
+            android:scaleType="center"
+            android:src="@drawable/ic_title_white_24dp" />
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/et_userInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sv_ribbonWrapper"
+        android:background="@android:color/transparent"
+        android:gravity="start|top"
+        android:hint="@string/fragment_annotate_hint"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:padding="16dp"/>
+
+
+    <!-- TODO: Implement in font options -->
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cappasoftware.com.bookannotations.nctexteditor.NCTextEditor
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:et_hint="@string/toolbar_search"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="ncedittext_default_ribbon_height">50dp</dimen>
+    <dimen name="ncedittext_default_height">-1px</dimen>
+
+</resources>
